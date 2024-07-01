@@ -1,0 +1,49 @@
+/* Styling for About.js */
+.about-container {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25%;
+  padding: 10px;
+}
+
+.about-header {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.about-description {
+  font-size: 1.25rem;
+  color: #666666;
+}
+
+.store-images-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.store-image {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.store-image:hover {
+  transform: scale(1.05);
+}
+
+.contact-info {
+  font-size: 1.25rem;
+  color: #666666;
+}

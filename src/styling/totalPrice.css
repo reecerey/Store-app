@@ -1,0 +1,26 @@
+/* Styling for totalPrice.js */
+.total-price-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #c0c0c0;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.total-price-header {
+  padding-top: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cart-link {
+  padding-left: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.cart-link:hover {
+  color: #555;
+}

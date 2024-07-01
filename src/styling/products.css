@@ -1,0 +1,28 @@
+/* Styling for products.js */
+.ourProducts {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.product-card {
+  width: 18rem;
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
